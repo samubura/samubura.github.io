@@ -1,0 +1,44 @@
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+  background: var(--brand);
+  color: #fff !important;
+  font-size: 0.88rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none !important;
+  transition: transform 0.12s ease, filter 0.12s ease;
+}
+.link:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.12);
+}
+
+.link svg {
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+  flex: none;
+}
+
+/* ORCID green needs dark text to stay readable */
+.link[style*='a6ce39'] {
+  color: #1b2400 !important;
+}
+
+/* GitHub's near-black disappears against the dark theme background */
+:global([data-theme='dark']) .link[style*='24292f'] {
+  background: #3d444d;
+}

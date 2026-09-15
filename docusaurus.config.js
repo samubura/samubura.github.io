@@ -56,24 +56,6 @@ const config = {
           { to: '/publications', label: 'Publications', position: 'left' },
           { to: '/cv', label: 'CV', position: 'left' },
           // notes: { to: '/blog', label: 'Notes', position: 'left' },
-          {
-            href: 'https://github.com/samubura',
-            position: 'right',
-            className: 'navbar-icon navbar-github',
-            'aria-label': 'GitHub profile',
-          },
-          {
-            href: 'https://scholar.google.com/citations?user=oxPJZLsAAAAJ',
-            position: 'right',
-            className: 'navbar-icon navbar-scholar',
-            'aria-label': 'Google Scholar profile',
-          },
-          {
-            href: 'https://www.linkedin.com/in/samuele-burattini/',
-            position: 'right',
-            className: 'navbar-icon navbar-linkedin',
-            'aria-label': 'LinkedIn profile',
-          },
         ],
       },
       footer: {

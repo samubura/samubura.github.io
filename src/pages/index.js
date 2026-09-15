@@ -3,17 +3,9 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import publications from '@site/src/data/publications.json';
+import ProfileLinks from '@site/src/components/ProfileLinks';
 import styles from './index.module.css';
 
-const PROFILES = [
-  {label: 'University of Bologna', href: 'https://www.unibo.it/sitoweb/samuele.burattini/en'},
-  {label: 'Google Scholar', href: 'https://scholar.google.com/citations?user=oxPJZLsAAAAJ'},
-  {label: 'ORCID', href: 'https://orcid.org/0009-0009-4853-7783'},
-  {label: 'DBLP', href: 'https://dblp.org/pid/347/7578.html'},
-  {label: 'GitHub', href: 'https://github.com/samubura'},
-  {label: 'LinkedIn', href: 'https://www.linkedin.com/in/samuele-burattini/'},
-  {label: 'Email', href: 'mailto:samuele.burattini@unibo.it'},
-];
 
 const THEMES = [
   {
@@ -31,7 +23,6 @@ const THEMES = [
 ];
 
 const NOW = [
-  ['Digital Twin Ecosystems in the Edge-Cloud Continuum', 'Research fellowship at DISI, University of Bologna'],
   ['Urban Digital Twin of Bologna', 'Fairness-aware models for its socio-demographic extension, at the Alma Human AI Research Center'],
   ['Industry 4.0', 'Taught in the M.Sc. in Digital Transformation Management'],
 ];
@@ -87,13 +78,7 @@ export default function Home() {
                 Publications
               </Link>
             </div>
-            <ul className={styles.profiles}>
-              {PROFILES.map((l) => (
-                <li key={l.label}>
-                  <a href={l.href}>{l.label}</a>
-                </li>
-              ))}
-            </ul>
+            <ProfileLinks />
           </div>
         </header>
 
