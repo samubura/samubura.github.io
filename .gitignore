@@ -1,0 +1,13 @@
+# LaTeX build artefacts
+cv/*.aux
+cv/*.bbl
+cv/*.bbl-SAVE-ERROR
+cv/*.bcf
+cv/*.blg
+cv/*.fdb_latexmk
+cv/*.fls
+cv/*.log
+cv/*.out
+cv/*.run.xml
+cv/*.synctex.gz
+cv/comment.cut
