@@ -3,6 +3,8 @@ title: Research
 description: Digital Twin ecosystems, engineering multi-agent systems, and the Web of Things.
 ---
 
+import Cite from '@site/src/components/Cite';
+
 <div className="page">
 
 # Research
@@ -13,6 +15,9 @@ actually reason about? That question was the subject of my Ph.D. thesis, and I k
 on the thread.
 </div>
 
+I'm part of the [Pervasive Software Laboratory](https://pslab-unibo.github.io/) (PSLab) at the
+Department of Computer Science and Engineering, University of Bologna.
+
 ## Digital Twin Ecosystems
 
 Digital twins are usually built one at a time, for one system, by one team. The moment you want
@@ -20,30 +25,43 @@ two of them to cooperate, you discover that neither can describe itself to the o
 
 I work on hypermedia and Linked Data as the interoperability layer: **self-describing digital
 twins** that publish their own affordances, so a client — human or agent — can discover what a
-twin represents and what it can do at runtime rather than at integration time. This runs from the
-modelling side ([Linked Data for ecosystems of digital twins](https://doi.org/10.1145/3652620.3687782))
-through to toolchains ([HWoDT](https://doi.org/10.1016/j.softx.2025.102277)) and out to the
-edge-cloud continuum.
+twin represents and what it can do at runtime rather than at integration time.
+
+- <Cite title="Towards Linked Data for Ecosystems of Digital Twins" year /> — the modelling side of the problem.
+- <Cite title="Hypermedia-based digital twin ecosystems" year /> — the full proposal, in *Future Generation Computer Systems*.
+- <Cite title="HWoDT Framework" year /> — the toolchain that implements it.
+- <Cite title="Digital Twin Continuum" year /> — pushing twins across the edge-cloud continuum.
+- <Cite title="Distributing intelligent functionalities in the Internet of Things" year /> — where the intelligence should sit, between agents and twins.
 
 ## Engineering Multi-Agent Systems
 
 The BDI model gives agents a vocabulary for beliefs, desires and intentions — but the frameworks
-that implement it have real engineering gaps. I've worked on their **concurrency models**, on
-**explainability** (both for the engineer debugging an agent and for one agent explaining itself
-to another), on **anticipatory reasoning**, and on JaKtA, a BDI language embedded in pure Kotlin.
+that implement it have real engineering gaps.
+
+- **Concurrency** — <Cite title="Concurrency Model of BDI Programming Frameworks">why we should control it</Cite>, and <Cite title="On the External Concurrency of Current BDI Frameworks">what current frameworks actually do</Cite>.
+- **Explainability** — <Cite title="explainability framework for engineering and understanding BDI agents">a multi-level framework</Cite> for engineering and understanding BDI agents, extended to <Cite title="Engineering Inter-agent Explainability">explanations between agents</Cite>.
+- **Anticipatory reasoning** — <Cite title="Reflexive anticipatory reasoning by BDI agents" year />, and <Cite title="Anticipatory Thinking in Multi-Agent Contexts">what anticipation means in multi-agent contexts</Cite> (Best Paper, WESAAC 2025).
+- **Languages** — [JaKtA](https://jakta-bdi.github.io/), a BDI agent DSL embedded in pure Kotlin: <Cite title="JaKtA: BDI Agent-Oriented Programming in Pure Kotlin">the language</Cite> and <Cite title="Blending BDI Agents with Object-Oriented and Functional Programming">how it blends with OO and functional code</Cite>.
 
 ## Web of Things & Hypermedia MAS
 
 If the environment of an agent is the Web, then hypermedia controls are its affordances. I'm
-interested in how agents discover and use them, how domain experts — not programmers — can
-configure industrial hypermedia MAS, and what **embodiment** means for an agent in a hypermedia
-space.
+interested in how agents discover and use them, and what it takes for people who aren't
+programmers to configure such systems.
+
+- <Cite title="Domain-Expert Configuration of Hypermedia Multi-Agent Systems" year /> — putting industrial hypermedia MAS in the hands of domain experts.
+- <Cite title="Towards Framing the Agents" year /> — the Agents & Artifacts model, framed at the knowledge level.
+- <Cite title="Towards Agents' Embodiment in Hypermedia Multi-agent Systems" year /> — what embodiment means in a hypermedia space.
+- <Cite title="The Gap Between BDI Agents and Semantic Hypermedia" year /> — and what we can do about it.
 
 ## Applications
 
-The abstractions get tested against real domains: operating-room management and oncologic
-pharmaceutical supply chains in healthcare, smart manufacturing and Industry 4.0, and the urban
-digital twin of the city of Bologna.
+The abstractions get tested against real domains.
+
+- **Healthcare** — <Cite title="An Ecosystem of Digital Twins for Operating Room Management">operating-room management</Cite> and <Cite title="A Digital Twins Approach for Oncologic Pharmaceutical Supply Chain">oncologic pharmaceutical supply chains</Cite>.
+- **Industry 4.0** — <Cite title="Modular Engineering of Industrial Digital Twins">modular engineering of industrial twins</Cite> and <Cite title="Cyber-Physical Interaction Engineering">cyber-physical interaction engineering</Cite>.
+- **Smart farming** — <Cite title="Semantic Knowledge for Autonomous Smart Farming" year />.
+- **Urban digital twins** — the socio-demographic extension of the Urban Digital Twin of Bologna, at the Alma Human AI Research Center.
 
 ---
 
@@ -52,11 +70,11 @@ digital twin of the city of Bologna.
 **Digital Twins Ecosystems for Intelligent Applications in Healthcare**
 University of Bologna, 2025. Advisor: Prof. Alessandro Ricci.
 
-### Selected venues
+### Projects
 
-AAMAS · EMAS · EUMAS · MODELS · PerCom · ICSA · DCOSS-IoT ·
-*Autonomous Agents and Multi-Agent Systems* · *Future Generation Computer Systems* ·
-*Internet of Things* · *SoftwareX*
+- [JaKtA](https://jakta-bdi.github.io/) — BDI agent-oriented programming as a Kotlin internal DSL
+- [HWoDT](https://doi.org/10.1016/j.softx.2025.102275) — toolchain for interoperable Digital Twin ecosystems
+- [Pervasive Software Laboratory](https://pslab-unibo.github.io/) — the group I work in
 
 <div>See the <a href="/publications">full publication list</a>.</div>
 

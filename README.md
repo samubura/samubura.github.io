@@ -1,6 +1,6 @@
 # samubura.github.io
 
-My personal academic website — [Docusaurus](https://docusaurus.io), docs disabled, blog enabled.
+My personal academic website — [Docusaurus](https://docusaurus.io), docs and blog disabled.
 
 ```sh
 npm install
@@ -29,10 +29,10 @@ since CI has no TeX Live.
 | Path | What |
 |---|---|
 | `src/pages/index.js` | Homepage |
-| `src/pages/research.mdx` | Research page — plain Markdown, edit freely |
+| `src/pages/research.mdx` | Research page — Markdown; cite own papers with `<Cite title="..." />` |
 | `src/pages/cv.mdx` | CV page — plain Markdown, edit freely |
 | `src/pages/publications.mdx` | Wraps `src/components/Publications.js` (generated data) |
-| `blog/` | Notes; add a dated `.md` file to post |
+| `blog/` | Notes — **currently disabled**; see `blog/README.md` to switch it back on |
 | `cv/` | LaTeX sources of the CV (source of truth for publications) |
 | `static/` | Files served as-is, including the CV PDF |
 

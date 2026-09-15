@@ -23,16 +23,21 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: false, // no documentation site - this is a personal website
-        blog: {
-          routeBasePath: 'blog',
-          blogTitle: 'Notes',
-          blogDescription: 'Research notes, talks and news',
-          blogSidebarTitle: 'Recent posts',
-          blogSidebarCount: 10,
-          showReadingTime: true,
-          onUntruncatedBlogPosts: 'ignore',
-          feedOptions: { type: ['rss', 'atom'], title: 'Samuele Burattini' },
-        },
+        // Notes/blog is off for now. See blog/README.md to switch it back on:
+        // swap `blog: false` for this block, and uncomment the navbar and footer
+        // entries marked "notes" below.
+        //
+        // blog: {
+        //   routeBasePath: 'blog',
+        //   blogTitle: 'Notes',
+        //   blogDescription: 'Research notes, talks and news',
+        //   blogSidebarTitle: 'Recent posts',
+        //   blogSidebarCount: 10,
+        //   showReadingTime: true,
+        //   onUntruncatedBlogPosts: 'ignore',
+        //   feedOptions: { type: ['rss', 'atom'], title: 'Samuele Burattini' },
+        // },
+        blog: false,
         theme: { customCss: './src/css/custom.css' },
       }),
     ],
@@ -50,7 +55,7 @@ const config = {
           { to: '/research', label: 'Research', position: 'left' },
           { to: '/publications', label: 'Publications', position: 'left' },
           { to: '/cv', label: 'CV', position: 'left' },
-          { to: '/blog', label: 'Notes', position: 'left' },
+          // notes: { to: '/blog', label: 'Notes', position: 'left' },
           {
             href: 'https://github.com/samubura',
             position: 'right',
@@ -88,7 +93,7 @@ const config = {
             items: [
               { label: 'GitHub', href: 'https://github.com/samubura' },
               { label: 'LinkedIn', href: 'https://www.linkedin.com/in/samuele-burattini/' },
-              { label: 'Notes (RSS)', href: 'pathname:///blog/rss.xml' },
+              // notes: { label: 'Notes (RSS)', href: 'pathname:///blog/rss.xml' },
             ],
           },
           {
