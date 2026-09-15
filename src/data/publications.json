@@ -1,0 +1,507 @@
+[
+  {
+    "title": "Hypermedia-based digital twin ecosystems: A proposal for digital twin interoperability",
+    "year": "2026",
+    "venue": "Future Gener. Comput. Syst.",
+    "doi": "10.1016/J.FUTURE.2025.108219",
+    "authors": [
+      "Andrea Giulianelli",
+      "Samuele Burattini",
+      "Andrei Ciortea",
+      "Alessandro Ricci"
+    ],
+    "type": "journal",
+    "inPress": false
+  },
+  {
+    "title": "Towards Agents' Embodiment in Hypermedia Multi-agent Systems",
+    "year": "2025",
+    "venue": "Multi-Agent Systems",
+    "doi": "",
+    "authors": [
+      "Matteo Castellucci",
+      "Samuele Burattini",
+      "Andrei Ciortea",
+      "Jérémy Lemée",
+      "Danai Vachtsevanou",
+      "Alessandro Ricci",
+      "Simon Mayer"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "The Two Faces of Interoperability: Bridging Cyber and Physical Spaces with Digital Twins",
+    "year": "2025",
+    "venue": "2025 21st International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)",
+    "doi": "10.1109/DCOSS-IoT65416.2025.00078",
+    "authors": [
+      "Marco Picone",
+      "Matteo Martinelli",
+      "Samuele Burattini",
+      "Andrea Giulianelli",
+      "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "The Gap Between BDI Agents and Semantic Hypermedia and What We Can Do About It",
+    "year": "2025",
+    "venue": "Proceedings of the Second International Workshop on Hypermedia Multi-Agent Systems (HyperAgents 2025) co-located with 28th European Conference on Artificial Intelligence (ECAI 2025)",
+    "doi": "",
+    "authors": [
+      "Samuele Burattini",
+      "Martina Baiardi",
+      "Giovanni Ciatto",
+      "Danilo Pianini",
+      "et al."
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Reflexive anticipatory reasoning by BDI agents",
+    "year": "2025",
+    "venue": "Auton. Agents Multi Agent Syst.",
+    "doi": "10.1007/S10458-025-09687-8",
+    "authors": [
+      "Jomi Fred Hübner",
+      "Samuele Burattini",
+      "Alessandro Ricci",
+      "Simon Mayer"
+    ],
+    "type": "journal",
+    "inPress": false
+  },
+  {
+    "title": "Modular Engineering of Industrial Digital Twins: The WLDT Approach",
+    "year": "2025",
+    "venue": "2025 21st International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)",
+    "doi": "10.1109/DCOSS-IoT65416.2025.00077",
+    "authors": [
+      "Matteo Martinelli",
+      "Antonello Barbone",
+      "Riccardo Morandi",
+      "Marco Picone",
+      "Samuele Burattini",
+      "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Harmonizing Physical and Digital Twins Lifecycles",
+    "year": "2025",
+    "venue": "22nd IEEE International Conference on Software Architecture, ICSA",
+    "doi": "10.1109/ICSA-C65153.2025.00039",
+    "authors": [
+      "Marco Picone",
+      "Riccardo Morandi",
+      "Antonello Barbone",
+      "Samuele Burattini",
+      "Mattia Fogli",
+      "Nicola Bicocchi",
+      "Carlo Giannelli",
+      "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "HWoDT Framework: A toolchain to build interoperable Digital Twin Ecosystems",
+    "year": "2025",
+    "venue": "SoftwareX",
+    "doi": "10.1016/j.softx.2025.102275",
+    "authors": [
+      "Andrea Giulianelli",
+      "Samuele Burattini",
+      "Andrei Ciortea",
+      "Alessandro Ricci"
+    ],
+    "type": "journal",
+    "inPress": false
+  },
+  {
+    "title": "Extending CArtAgO to support the engineering of complex distributed environments at the Knowledge Level",
+    "year": "2025",
+    "venue": "Multi-Agent Systems - 22nd European Conference, EUMAS 2025, Bucarest, Romania, September 3-5, 2025, Proceedings",
+    "doi": "",
+    "authors": [
+      "Alessandro Ricci",
+      "Andrei Ciortea",
+      "Samuele Burattini"
+    ],
+    "type": "conference",
+    "inPress": true
+  },
+  {
+    "title": "Exploiting GenAI for Plan Generation in BDI Agents",
+    "year": "2025",
+    "venue": "ECAI 2025",
+    "doi": "10.3233/FAIA251223",
+    "authors": [
+      "Giovanni Ciatto",
+      "Gianluca Aguzzi",
+      "Riccardo Battistini",
+      "Martina Baiardi",
+      "Samuele Burattini",
+      "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Engineering Inter-agent Explainability in BDI Agents",
+    "year": "2025",
+    "venue": "Explainable, Trustworthy, and Responsible AI and Multi-Agent Systems: 7th International Workshop, EXTRAAMAS 2025, Detroit, MI, USA, May 19–20, 2025, Revised Selected Papers",
+    "doi": "",
+    "authors": [
+      "Katharine Beaumont",
+      "Elena Yan",
+      "Samuele Burattini"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Distributing intelligent functionalities in the Internet of Things with agents and Digital Twins",
+    "year": "2025",
+    "venue": "Internet Things",
+    "doi": "10.1016/J.IOT.2025.101560",
+    "authors": [
+      "Samuele Burattini",
+      "Stefano Mariani",
+      "Sara Montagna",
+      "Marco Picone",
+      "Alessandro Ricci"
+    ],
+    "type": "journal",
+    "inPress": false
+  },
+  {
+    "title": "Cyber-Physical Interaction Engineering of Industrial Digital Twin Ecosystems",
+    "year": "2025",
+    "venue": "2025 21st International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)",
+    "doi": "10.1109/DCOSS-IoT65416.2025.00073",
+    "authors": [
+      "Mattia Fogli",
+      "Gaia Mazziotta",
+      "Samuele Burattini",
+      "Marco Picone",
+      "Carlo Giannelli",
+      "Cesare Stefanelli"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Anticipatory Thinking in Multi-Agent Contexts",
+    "year": "2025",
+    "venue": "Anais do XIX Workshop-Escola de Sistemas de Agentes, seus Ambientes e Aplicações",
+    "doi": "10.5753/wesaac.2025.37525",
+    "authors": [
+      "Jomi Hübner",
+      "Samuele Burattini",
+      "Alessandro Ricci",
+      "Simon Mayer"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Agent Toolkits: Towards Explainable Agency in ASTRA",
+    "year": "2025",
+    "venue": "Multi-Agent Systems - 22nd European Conference, EUMAS 2025, Bucarest, Romania, September 3-5, 2025, Proceedings",
+    "doi": "",
+    "authors": [
+      "Katharine Beaumont",
+      "Elena Yan",
+      "Samuele Burattini",
+      "Rem W. Collier"
+    ],
+    "type": "conference",
+    "inPress": true
+  },
+  {
+    "title": "A multi-level explainability framework for engineering and understanding BDI agents",
+    "year": "2025",
+    "venue": "Auton. Agents Multi Agent Syst.",
+    "doi": "10.1007/S10458-025-09689-6",
+    "authors": [
+      "Elena Yan",
+      "Samuele Burattini",
+      "Jomi Fred Hübner",
+      "Alessandro Ricci"
+    ],
+    "type": "journal",
+    "inPress": false
+  },
+  {
+    "title": "Towards Linked Data for Ecosystems of Digital Twins",
+    "year": "2024",
+    "venue": "Proceedings of the ACM/IEEE 27th International Conference on Model Driven Engineering Languages and Systems, MODELS Companion 2024, Linz, Austria, September 22-27, 2024",
+    "doi": "10.1145/3652620.3688245",
+    "authors": [
+      "Samuele Burattini",
+      "Antoine Zimmermann",
+      "Marco Picone",
+      "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "The Cognitive Hourglass: Agent Abstractions in the Large Models Era",
+    "year": "2024",
+    "venue": "Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2024, Auckland, New Zealand, May 6-10, 2024",
+    "doi": "10.5555/3635637.3663262",
+    "authors": [
+      "Alessandro Ricci",
+      "Stefano Mariani",
+      "Franco Zambonelli",
+      "Samuele Burattini",
+      "Cristiano Castelfranchi"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "On the External Concurrency of Current BDI Frameworks for MAS",
+    "year": "2024",
+    "venue": "Engineering Multi-Agent Systems - 12th International Workshop, EMAS",
+    "doi": "10.1007/978-3-031-71152-7_3",
+    "authors": [
+      "Martina Baiardi",
+      "Samuele Burattini",
+      "Giovanni Ciatto",
+      "Danilo Pianini",
+      "Alessandro Ricci",
+      "Andrea Omicini"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Multi-Paradigm Integration for the BDI Resurgence",
+    "year": "2024",
+    "venue": "IEEE International Conference on Autonomic Computing and Self-Organizing Systems, ACSOS 2024 - Companion, Aarhus, Denmark, September 16-20, 2024",
+    "doi": "10.1109/ACSOS-C63493.2024.00025",
+    "authors": [
+      "Danilo Pianini",
+      "Martina Baiardi",
+      "Samuele Burattini",
+      "Giovanni Ciatto"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Engineering Interoperable Ecosystems of Digital Twins: A Web-based Approach",
+    "year": "2024",
+    "venue": "Proceedings of the ACM/IEEE 27th International Conference on Model Driven Engineering Languages and Systems, MODELS Companion 2024, Linz, Austria, September 22-27, 2024",
+    "doi": "10.1145/3652620.3688263",
+    "authors": [
+      "Andrea Giulianelli",
+      "Samuele Burattini",
+      "Andrei Ciortea",
+      "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Digital Twin Continuum: a Key Enabler for Pervasive Cyber-Physical Environments",
+    "year": "2024",
+    "venue": "33rd International Conference on Computer Communications and Networks, ICCCN 2024, Kailua-Kona, HI, USA, July 29-31, 2024",
+    "doi": "10.1109/ICCCN61486.2024.10637565",
+    "authors": [
+      "Antonello Barbone",
+      "Samuele Burattini",
+      "Matteo Martinelli",
+      "Marco Picone",
+      "Alessandro Ricci",
+      "Antonio Virdis"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Concurrency Model of BDI Programming Frameworks: Why Should We Control It?",
+    "year": "2024",
+    "venue": "Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2024, Auckland, New Zealand, May 6-10, 2024",
+    "doi": "10.5555/3635637.3663089",
+    "authors": [
+      "Martina Baiardi",
+      "Samuele Burattini",
+      "Giovanni Ciatto",
+      "Danilo Pianini",
+      "Andrea Omicini",
+      "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Blending BDI Agents with Object-Oriented and Functional Programming with JaKtA",
+    "year": "2024",
+    "venue": "SN Comput. Sci.",
+    "doi": "10.1007/S42979-024-03244-Y",
+    "authors": [
+      "Martina Baiardi",
+      "Samuele Burattini",
+      "Giovanni Ciatto",
+      "Danilo Pianini"
+    ],
+    "type": "journal",
+    "inPress": false
+  },
+  {
+    "title": "Agents for DDD - Back and Forth",
+    "year": "2024",
+    "venue": "Engineering Multi-Agent Systems - 12th International Workshop, EMAS",
+    "doi": "10.1007/978-3-031-71152-7_11",
+    "authors": [
+      "Alessandro Ricci",
+      "Samuele Burattini",
+      "Andrei Ciortea",
+      "Matteo Castellucci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "A Digital Twins Approach for Oncologic Pharmaceutical Supply Chain",
+    "year": "2024",
+    "venue": "IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events, PerCom 2024 - Workshops, Biarritz, France, March 11-15, 2024",
+    "doi": "10.1109/PERCOMWORKSHOPS59983.2024.10502569",
+    "authors": [
+      "Samuele Burattini",
+      "Sara Montagna",
+      "Nicola Gentili",
+      "Francesca Galardi",
+      "Roberto Vespignani",
+      "Paolo Zanatto",
+      "Angelo Croatti",
+      "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Towards a Multi-Level Explainability Framework for Engineering and Understanding BDI Agent Systems",
+    "year": "2023",
+    "venue": "Proceedings of the 24th Workshop \"From Objects to Agents\", Roma, Italy, November 6-8, 2023",
+    "doi": "",
+    "authors": [
+      "Elena Yan",
+      "Samuele Burattini",
+      "Jomi Fred Hübner",
+      "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Towards Framing the Agents & Artifacts Conceptual Model at the Knowledge Level: First Ideas and Experiments",
+    "year": "2023",
+    "venue": "Engineering Multi-Agent Systems - 11th International Workshop, EMAS",
+    "doi": "10.1007/978-3-031-48539-8_14",
+    "authors": [
+      "Samuele Burattini",
+      "Andrei Ciortea",
+      "Meshua Galassi",
+      "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Supporting Adaptive Multi-Agent Systems with Digital Twins Environments",
+    "year": "2023",
+    "venue": "Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings",
+    "doi": "10.1007/978-3-031-43264-4_30",
+    "authors": [
+      "Samuele Burattini"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "JaKtA: BDI Agent-Oriented Programming in Pure Kotlin",
+    "year": "2023",
+    "venue": "Multi-Agent Systems - 20th European Conference, EUMAS 2023, Naples, Italy, September 14-15, 2023, Proceedings",
+    "doi": "10.1007/978-3-031-43264-4_4",
+    "authors": [
+      "Martina Baiardi",
+      "Samuele Burattini",
+      "Giovanni Ciatto",
+      "Danilo Pianini"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Domain-Expert Configuration of Hypermedia Multi-Agent Systems in Industrial Use Cases",
+    "year": "2023",
+    "venue": "Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2023, London, United Kingdom, 29 May 2023 - 2 June 2023",
+    "doi": "10.5555/3545946.3598981",
+    "authors": [
+      "Jérémy Lemée",
+      "Samuele Burattini",
+      "Simon Mayer",
+      "Andrei Ciortea"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "An Ecosystem of Digital Twins for Operating Room Management",
+    "year": "2023",
+    "venue": "36th IEEE International Symposium on Computer-Based Medical Systems, CBMS 2023, L'Aquila, Italy, June 22-24, 2023",
+    "doi": "10.1109/CBMS58004.2023.00317",
+    "authors": [
+      "Samuele Burattini",
+      "Sara Montagna",
+      "Angelo Croatti",
+      "Nicola Gentili",
+      "Alessandro Ricci",
+      "Laura Leonardi",
+      "Serafino Pandolfini",
+      "Sofia Tosi"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Semantic Knowledge for Autonomous Smart Farming",
+    "year": "2022",
+    "venue": "IFAC-PapersOnLine",
+    "doi": "10.1016/j.ifacol.2022.11.142",
+    "authors": [
+      "Ganesh Ramanathan",
+      "Danai Vachtsevanou",
+      "Kimberly García",
+      "Jérémy Lemée",
+      "Samuele Burattini",
+      "Kenan Bektas",
+      "Simon Mayer"
+    ],
+    "type": "journal",
+    "inPress": false
+  },
+  {
+    "title": "Using Discrete Event Simulation to Test BDI Systems Before Deployment",
+    "year": "",
+    "venue": "Auton. Agents Multi Agent Syst.",
+    "doi": "",
+    "authors": [
+      "Martina Baiardi",
+      "Samuele Burattini",
+      "Giovanni Ciatto",
+      "Danilo Pianini"
+    ],
+    "type": "conference",
+    "inPress": true
+  }
+]

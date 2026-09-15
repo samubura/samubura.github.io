@@ -1,0 +1,58 @@
+.year {
+  font-size: 1.1rem;
+  margin: 2.25rem 0 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px dashed var(--ifm-color-emphasis-200);
+}
+.list li:last-child { border-bottom: 0; }
+
+.title { display: block; font-weight: 600; }
+.authors,
+.venue {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+.venue { font-style: italic; }
+
+.tags {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+.tag,
+.journal,
+.press,
+.doi {
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 0.12rem 0.45rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-emphasis-700);
+}
+.journal {
+  color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+.press {
+  text-transform: none;
+  letter-spacing: 0;
+  font-style: italic;
+}
+.doi { text-decoration: none; }
+.doi:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}

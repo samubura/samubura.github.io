@@ -1,14 +1,39 @@
 # samubura.github.io
 
-Personal academic website — a single static `index.html`, no build step, no dependencies.
-
-The `cv/` folder holds the LaTeX sources of my academic CV, and is the **single source of truth**:
-the publication list on the website is generated from `cv/own-bib.bib`, so the two can't drift apart.
+My personal academic website — [Docusaurus](https://docusaurus.io), docs disabled, blog enabled.
 
 ```sh
-./update.sh      # rebuild the CV PDF + regenerate the publications section of index.html
-./gen_pubs.py    # just the publications (no LaTeX needed)
+npm install
+npm start          # dev server on :3000
+npm run build      # production build into build/
 ```
 
-`gen_pubs.py` rewrites whatever sits between the `<!--PUBS-->` and `<!--/PUBS-->` markers in
-`index.html`. Everything else on the page is edited by hand.
+## Single source of truth
+
+`cv/` holds the LaTeX sources of my academic CV. The publication list on the site is
+**generated from `cv/own-bib.bib`** by `gen_pubs.py` into `src/data/publications.json`,
+which the pages import — so the website and the CV can't disagree.
+
+`gen_pubs.py` runs automatically before `npm start` and `npm run build` (npm `pre*` hooks)
+and in CI, so you never have to remember it.
+
+```sh
+./update.sh        # rebuild the CV PDF from LaTeX + regenerate publications
+```
+
+The PDF served at `/Samuele_Burattini_CV.pdf` is built locally by `update.sh` and committed,
+since CI has no TeX Live.
+
+## Where things live
+
+| Path | What |
+|---|---|
+| `src/pages/index.js` | Homepage |
+| `src/pages/research.mdx` | Research page — plain Markdown, edit freely |
+| `src/pages/cv.mdx` | CV page — plain Markdown, edit freely |
+| `src/pages/publications.mdx` | Wraps `src/components/Publications.js` (generated data) |
+| `blog/` | Notes; add a dated `.md` file to post |
+| `cv/` | LaTeX sources of the CV (source of truth for publications) |
+| `static/` | Files served as-is, including the CV PDF |
+
+Deployed to GitHub Pages by `.github/workflows/pages.yml` on every push to `main`.
