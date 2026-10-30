@@ -9,16 +9,16 @@ import styles from './index.module.css';
 
 const THEMES = [
   {
-    title: 'Digital Twin Ecosystems',
-    body: 'Hypermedia and Linked Data as the interoperability layer between digital twins: self-describing twins that agents can discover and compose at runtime, across the edge-cloud continuum.',
+    title: 'Digital Twins',
+    body: 'Engineering digital twins of physical assets, processes and environments: modular and interoperable architectures that applications and agents can build on.',
   },
   {
-    title: 'Engineering Multi-Agent Systems',
-    body: 'BDI agent programming languages and frameworks — concurrency models, explainability, anticipatory reasoning, and the knowledge-level framing of the Agents & Artifacts model.',
+    title: 'Multi-Agent Systems',
+    body: 'Languages, frameworks and tools for programming autonomous agents and the systems they form, with an eye on making them explainable.',
   },
   {
-    title: 'Web of Things & Hypermedia MAS',
-    body: 'Agents that use the Web as their environment: affordance discovery, domain-expert configuration of industrial hypermedia MAS, and agent embodiment in hypermedia spaces.',
+    title: 'Semantic Web of Things',
+    body: 'Web of Things and knowledge graphs to describe devices, services and environments so that both software agents and people can understand them.',
   },
 ];
 
@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <Layout
       title="Home"
-      description="PostDoc researcher at the University of Bologna working on Digital Twins, Multi-Agent Systems and the Web of Things.">
+      description="PostDoc researcher at the University of Bologna working on software engineering for cyber-physical and autonomous systems.">
       <main className={styles.main}>
         <header className={styles.hero}>
           <img
@@ -65,10 +65,9 @@ export default function Home() {
               Engineering, University of Bologna
             </p>
             <p className={styles.lede}>
-              I work on <strong>Digital Twins</strong>, <strong>Multi-Agent Systems</strong> and the{' '}
-              <strong>Web of Things</strong> — designing the abstractions and the tooling that let
-              autonomous agents and digital twins discover, understand and act on each other across
-              pervasive cyber-physical environments.
+              I work on the <strong>software engineering of cyber-physical and autonomous
+              systems</strong> — the abstractions, languages and tools to build systems where software
+              agents, digital twins and physical devices work together.
             </p>
             <div className={styles.actions}>
               <Link className="button button--primary" to="/cv">
@@ -84,9 +83,9 @@ export default function Home() {
 
         <section className={styles.section}>
           <h2>What I work on</h2>
-          <div className={styles.cards}>
+          <div className="cards">
             {THEMES.map((t) => (
-              <div className={styles.card} key={t.title}>
+              <div className="card" key={t.title}>
                 <h3>{t.title}</h3>
                 <p>{t.body}</p>
               </div>

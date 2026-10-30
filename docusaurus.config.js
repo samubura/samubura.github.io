@@ -2,8 +2,8 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Samuele Burattini',
-  tagline: 'Digital Twins, Multi-Agent Systems and the Web of Things',
-  favicon: 'img/favicon.ico',
+  tagline: 'Software engineering for cyber-physical and autonomous systems',
+  favicon: 'img/favicon.svg',
 
   url: 'https://samubura.github.io',
   baseUrl: '/',
@@ -54,6 +54,7 @@ const config = {
         items: [
           { to: '/research', label: 'Research', position: 'left' },
           { to: '/publications', label: 'Publications', position: 'left' },
+          { to: '/teaching', label: 'Teaching', position: 'left' },
           { to: '/cv', label: 'CV', position: 'left' },
           // notes: { to: '/blog', label: 'Notes', position: 'left' },
         ],

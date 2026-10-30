@@ -51,27 +51,6 @@
   margin-bottom: 1.25rem;
 }
 
-.cards {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  margin-bottom: 1.25rem;
-}
-.card {
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: 10px;
-  padding: 1.1rem 1.2rem;
-}
-.card h3 {
-  font-size: 1.02rem;
-  margin-bottom: 0.4rem;
-}
-.card p {
-  font-size: 0.92rem;
-  color: var(--ifm-color-emphasis-700);
-  margin: 0;
-}
-
 .now {
   list-style: none;
   padding: 0;
