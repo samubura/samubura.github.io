@@ -1,5 +1,19 @@
 [
   {
+    "title": "Testing BDI-based multi-agent systems using discrete event simulation",
+    "year": "2026",
+    "venue": "Auton. Agents Multi Agent Syst.",
+    "doi": "10.1007/S10458-026-09744-W",
+    "authors": [
+      "Martina Baiardi",
+      "Samuele Burattini",
+      "Giovanni Ciatto",
+      "Danilo Pianini"
+    ],
+    "type": "journal",
+    "inPress": false
+  },
+  {
     "title": "Hypermedia-based digital twin ecosystems: A proposal for digital twin interoperability",
     "year": "2026",
     "venue": "Future Gener. Comput. Syst.",
@@ -14,18 +28,47 @@
     "inPress": false
   },
   {
-    "title": "Towards Agents' Embodiment in Hypermedia Multi-agent Systems",
-    "year": "2025",
-    "venue": "Multi-Agent Systems",
-    "doi": "",
+    "title": "Digital Twin Aggregates for adaptive MLOps retraining policies in healthcare",
+    "year": "2026",
+    "venue": "Future Gener. Comput. Syst.",
+    "doi": "10.1016/J.FUTURE.2026.108674",
     "authors": [
-      "Matteo Castellucci",
+      "Davide Domini",
+      "Leonardo Micelli",
       "Samuele Burattini",
-      "Andrei Ciortea",
-      "Jérémy Lemée",
-      "Danai Vachtsevanou",
-      "Alessandro Ricci",
-      "Simon Mayer"
+      "Sara Montagna"
+    ],
+    "type": "journal",
+    "inPress": false
+  },
+  {
+    "title": "A Multi-level Explainability Framework for Engineering and Understanding BDI Agents",
+    "year": "2026",
+    "venue": "Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2026, Paphos, Cyprus, May 25-29, 2026",
+    "doi": "10.65109/ZIQG2381",
+    "authors": [
+      "Elena Yan",
+      "Samuele Burattini",
+      "Jomi F. Hübner",
+      "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "A Multi-Simulation Bridge for IoT Digital Twins",
+    "year": "2026",
+    "venue": "IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events, PerCom 2026 - Workshops, Pisa, Italy, March 16-20, 2026",
+    "doi": "10.1109/PERCOMWORKSHOPS68308.2026.11585411",
+    "authors": [
+      "Marco Picone",
+      "Samuele Burattini",
+      "Marco Melloni",
+      "Prasad Talasila",
+      "Davide Ziglioli",
+      "Matteo Martinelli",
+      "Nicola Bicocchi",
+      "Peter Gorm Larsen"
     ],
     "type": "conference",
     "inPress": false
@@ -48,14 +91,13 @@
   {
     "title": "The Gap Between BDI Agents and Semantic Hypermedia and What We Can Do About It",
     "year": "2025",
-    "venue": "Proceedings of the Second International Workshop on Hypermedia Multi-Agent Systems (HyperAgents 2025) co-located with 28th European Conference on Artificial Intelligence (ECAI 2025)",
+    "venue": "Proceedings of the Second International Workshop on Hypermedia Multi-Agent Systems (HyperAgents 2025) co-located with 28th European Conference on Artificial Intelligence (ECAI 2025), Bologna, Italy, October 26, 2025",
     "doi": "",
     "authors": [
       "Samuele Burattini",
       "Martina Baiardi",
       "Giovanni Ciatto",
-      "Danilo Pianini",
-      "et al."
+      "Danilo Pianini"
     ],
     "type": "conference",
     "inPress": false
@@ -112,7 +154,7 @@
     "title": "HWoDT Framework: A toolchain to build interoperable Digital Twin Ecosystems",
     "year": "2025",
     "venue": "SoftwareX",
-    "doi": "10.1016/j.softx.2025.102275",
+    "doi": "10.1016/J.SOFTX.2025.102275",
     "authors": [
       "Andrea Giulianelli",
       "Samuele Burattini",
@@ -123,22 +165,22 @@
     "inPress": false
   },
   {
-    "title": "Extending CArtAgO to support the engineering of complex distributed environments at the Knowledge Level",
+    "title": "Extending CArtAgO to Support the Engineering of Distributed Environments at the Knowledge Level",
     "year": "2025",
-    "venue": "Multi-Agent Systems - 22nd European Conference, EUMAS 2025, Bucarest, Romania, September 3-5, 2025, Proceedings",
-    "doi": "",
+    "venue": "Multi-Agent Systems - 22nd European Conference, EUMAS 2025, Bucharest, Romania, September 3-5, 2025, Proceedings, Part I",
+    "doi": "10.1007/978-3-032-22817-8_2",
     "authors": [
       "Alessandro Ricci",
       "Andrei Ciortea",
       "Samuele Burattini"
     ],
     "type": "conference",
-    "inPress": true
+    "inPress": false
   },
   {
     "title": "Exploiting GenAI for Plan Generation in BDI Agents",
     "year": "2025",
-    "venue": "ECAI 2025",
+    "venue": "ECAI 2025 - 28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy - Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025)",
     "doi": "10.3233/FAIA251223",
     "authors": [
       "Giovanni Ciatto",
@@ -154,12 +196,13 @@
   {
     "title": "Engineering Inter-agent Explainability in BDI Agents",
     "year": "2025",
-    "venue": "Explainable, Trustworthy, and Responsible AI and Multi-Agent Systems: 7th International Workshop, EXTRAAMAS 2025, Detroit, MI, USA, May 19–20, 2025, Revised Selected Papers",
-    "doi": "",
+    "venue": "Explainable, Trustworthy, and Responsible AI and Multi-Agent Systems - 7th International Workshop, EXTRAAMAS 2025, Detroit, MI, USA, May 19-20, 2025, Revised Selected Papers",
+    "doi": "10.1007/978-3-032-01399-6_9",
     "authors": [
       "Katharine Beaumont",
       "Elena Yan",
-      "Samuele Burattini"
+      "Samuele Burattini",
+      "Rem W. Collier"
     ],
     "type": "conference",
     "inPress": false
@@ -210,10 +253,27 @@
     "inPress": false
   },
   {
-    "title": "Agent Toolkits: Towards Explainable Agency in ASTRA",
+    "title": "Agent-Oriented Visual Programming for the Web of Things",
     "year": "2025",
-    "venue": "Multi-Agent Systems - 22nd European Conference, EUMAS 2025, Bucarest, Romania, September 3-5, 2025, Proceedings",
-    "doi": "",
+    "venue": "CoRR",
+    "doi": "10.48550/ARXIV.2511.13158",
+    "authors": [
+      "Samuele Burattini",
+      "Alessandro Ricci",
+      "Simon Mayer",
+      "Danai Vachtsevanou",
+      "Jérémy Lemée",
+      "Andrei Ciortea",
+      "Angelo Croatti"
+    ],
+    "type": "journal",
+    "inPress": false
+  },
+  {
+    "title": "Agent Toolkits: Explainable Agency in ASTRA",
+    "year": "2025",
+    "venue": "Multi-Agent Systems - 22nd European Conference, EUMAS 2025, Bucharest, Romania, September 3-5, 2025, Proceedings, Part I",
+    "doi": "10.1007/978-3-032-22817-8_5",
     "authors": [
       "Katharine Beaumont",
       "Elena Yan",
@@ -221,7 +281,7 @@
       "Rem W. Collier"
     ],
     "type": "conference",
-    "inPress": true
+    "inPress": false
   },
   {
     "title": "A multi-level explainability framework for engineering and understanding BDI agents",
@@ -247,6 +307,23 @@
       "Antoine Zimmermann",
       "Marco Picone",
       "Alessandro Ricci"
+    ],
+    "type": "conference",
+    "inPress": false
+  },
+  {
+    "title": "Towards Agents' Embodiment in Hypermedia Multi-agent Systems",
+    "year": "2024",
+    "venue": "Multi-Agent Systems - 21st European Conference, EUMAS 2024, Dublin, Ireland, August 26-28, 2024, Proceedings",
+    "doi": "10.1007/978-3-031-93930-3_21",
+    "authors": [
+      "Matteo Castellucci",
+      "Samuele Burattini",
+      "Andrei Ciortea",
+      "Jérémy Lemée",
+      "Danai Vachtsevanou",
+      "Alessandro Ricci",
+      "Simon Mayer"
     ],
     "type": "conference",
     "inPress": false
@@ -489,19 +566,5 @@
     ],
     "type": "journal",
     "inPress": false
-  },
-  {
-    "title": "Using Discrete Event Simulation to Test BDI Systems Before Deployment",
-    "year": "",
-    "venue": "Auton. Agents Multi Agent Syst.",
-    "doi": "",
-    "authors": [
-      "Martina Baiardi",
-      "Samuele Burattini",
-      "Giovanni Ciatto",
-      "Danilo Pianini"
-    ],
-    "type": "conference",
-    "inPress": true
   }
 ]
